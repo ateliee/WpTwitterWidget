@@ -5,7 +5,7 @@
   Description: twitter widget/Twitter API 1.1対応
   Version: 1.0.0
   Author: ateliee
-  License: GPLv2
+  License: GPLv3
  */
 
 // Exit if accessed directly.
