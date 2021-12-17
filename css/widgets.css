@@ -1,0 +1,49 @@
+@import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css");
+/**
+ * timeline
+ */
+#wp-twitter-timeline-more{
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+}
+#wp-twitter-timeline-more a{
+    display: block;
+    background: #fff;
+    border: solid 1px #cfd9dd;
+    padding: 12px;
+    border-radius: 8px;
+}
+#wp-twitter-timeline .no-list{
+    text-align: center;
+}
+#wp-twitter-timeline .loader{
+    text-align: center;
+    padding: 20px;
+}
+#wp-twitter-timeline .loader *{
+    color: #9a9a9a;
+}
+#wp-twitter-timeline .error{
+    color: #ff3838;
+    text-align: center;
+}
+
+.wp-twitter-notify{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    transition: all 1s;
+}
+.wp-twitter-notify.animated{
+    bottom: -100px;
+}
+.wp-twitter-notify .wp-twitter-notify-box{
+    padding: 20px;
+    display: inline-block;
+    border-radius: 12px;
+    background: #52caef;
+    color: #fff;
+}
